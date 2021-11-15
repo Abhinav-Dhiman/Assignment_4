@@ -1,0 +1,51 @@
+div {
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 5%
+}
+table {
+    width: 100%;
+    border: 2px solid #fff;
+    /* box-shadow: 0 0 2px 1px #F1F1F1; */
+}
+input[type="button"] {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 60px;
+    outline: none;
+    height: 80px;
+    /*  */
+}
+input[type="text"] {
+    border: none;
+    width: 96%;
+    height: 100px;
+    padding: 10px;
+    font-size: 70px;
+    outline: none;
+    font-weight: normal;
+    color: white;
+    background-color: black;
+}
+.numbers {
+    background-color: #F1F1F1;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+.bgclear {
+    background: #CC0000;
+    color: #F9F9F9;
+    transition: all 0.3s ease-in-out;
+}
+.operators {
+    background-color: #ff9216;
+    color: #F9F9F9;
+    transition: all 0.3s ease-in-out;
+}
+.equal {
+    background-color: #358f0f;
+    color: #F9F9F9;
+    transition: all 0.3s ease-in-out;
+}
+
